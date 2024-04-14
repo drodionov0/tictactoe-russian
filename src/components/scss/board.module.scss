@@ -1,0 +1,46 @@
+.page{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 50%;
+    margin-top: 25vh;
+}
+
+.but{
+    background: #fff;
+    border: 2.5px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 70px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+.board{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.status{
+    margin-bottom: 15px;
+}
+
+.buts{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.buts:hover{
+    transition: 0.8s;
+    background-color: #474747;
+}
